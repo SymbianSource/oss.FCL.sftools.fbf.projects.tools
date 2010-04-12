@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<project name="SF-JOB-PROPS" >
+    
+    <dirname property="sf.spec.job.dir" file="${ant.file.SF-JOB-PROPS}"/>
+    <property name="sf.project.type" value="tools" />
+
+    <property name="sf.previous.pdk.tag" value="PDK_3.0.h" />
+
+    <property name="sf.spec.job.name" value="overlay"/>
+    <property name="sf.spec.corebuildversion" value="weekxx"/>
+    
+    <property name="sf.spec.sbs.variant" value="tb92sf"/>    
+    <property name="sf.spec.sbs.config"  value="tools.whatlog,tools2.whatlog"/>
+    <property name="sf.spec.sysdef.configurations.list" value="overlay"/>
+    
+    <!-- use this in create-canonical-sysdef override  -->
+    <property name="sf.spec.systemdefinition.location" value="${sf.project.location}/sysdefs/system_model.xml"/>
+
+    <property name="sf.spec.baseline.enable"       value="false" />
+    <property name="sf.spec.toolsbaseline.enable"  value="false" />
+
+    <!-- zip all logs before publish -->
+    <property name="sf.spec.logs.zip.enable"  value="true"/>
+
+    <!-- packaging options for bin/src-->
+    <property name="sf.spec.package.bin.enable"  value="true"/>
+    <property name="sf.spec.package.src.enable"  value="true"/>
+
+    <!-- required for gt bootstrap exclusion list creation -->
+    <property name="sf.spec.dirlist.enable"      value="true"/>
+    
+    <property name="sf.spec.bldmefirst.gt.variant" value="sf/os/deviceplatformrelease/symbianosbld/cedarutils/Symbian_OS_v${sf.spec.sbs.variant}.cfg" />
+    <!-- Location of Symbian_OS.hrh changed for Symbian3 to an inc directory -->
+    <property name="sf.spec.bldmefirst.gt.hrh.os"  value="sf/os/deviceplatformrelease/symbianosbld/cedarutils/inc/Symbian_OS_${sf.spec.sbs.variant}.hrh" />
+    <property name="sf.spec.bldmefirst.gt.hrh"     value="sf/os/deviceplatformrelease/symbianosbld/cedarutils/" />
+
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<project name="SF-JOB-REFS">
+
+<!-- For a combined model GT+S60, sf.spec.os.system.definition.files must be used -->
+<path id="sf.spec.tools.system.definition.files">
+    <fileset dir="${sf.project.location}/" casesensitive="false">
+            <include name="sysdefs/system_model.xml" />
+    </fileset>
+ </path>
+  
+ </project>
