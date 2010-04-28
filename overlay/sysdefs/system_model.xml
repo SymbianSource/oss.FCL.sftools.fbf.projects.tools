@@ -163,6 +163,13 @@
           </component>
         </collection>
       </block>  
+      <block name="qt" level="generic" long-name="Qt" levels="tool mw app">
+        <collection name="qtconf" long-name="Qt Config" level="tool">
+          <component name="qt_deviceconfiguration" long-name="Qt Device Configuration" introduced="^2" class="config tool">
+            <unit bldFile="sf/mw/qt/src/s60installs/deviceconfiguration"/>
+          </component>
+        </collection>
+      </block>
      </layer>
  </systemModel>
 </SystemDefinition>
