@@ -7,12 +7,12 @@
 
     <property name="sf.previous.pdk.tag" value="PDK_3.0.h" />
 
-    <property name="sf.spec.job.name" value="overlay"/>
+    <property name="sf.spec.job.name" value="prebuilt"/>
     <property name="sf.spec.corebuildversion" value="weekxx"/>
     
     <property name="sf.spec.sbs.variant" value="tb92sf"/>    
     <property name="sf.spec.sbs.config"  value="tools.whatlog,tools2.whatlog"/>
-    <property name="sf.spec.sysdef.configurations.list" value="overlay"/>
+    <property name="sf.spec.sysdef.configurations.list" value="prebuilt"/>
     
     <!-- use this in create-canonical-sysdef override  -->
     <property name="sf.spec.systemdefinition.location" value="${sf.project.location}/sysdefs/system_model.xml"/>
