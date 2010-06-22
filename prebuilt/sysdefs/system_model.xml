@@ -113,30 +113,7 @@
                 <unit bldFile="sftools/dev/build/e32tools/e32lib/group" mrp="e32tools/e32lib/group/e32lib.mrp"/>
             </component>
         </collection>
-<!--        
-        <collection name="buildtoolguides" level="ui" long-name="Build Tool Guides">
-            <component filter="build_SFPhase3" name="emulconfiguratorguide" long-name="Emulator Configurator Guide" >
-                <unit bldFile="sftools/dev/build/buildtoolguides/emulconfiguratorguide/group" mrp="buildtoolguides/emulconfiguratorguide/group/emulbuilderguide.mrp"/>
-            </component>
-            <component filter="build_SFPhase3" name="romtoolsguide" long-name="ROM Tools Guide" >
-                <unit bldFile="sftools/dev/build/buildtoolguides/romtoolsguide/group" mrp="buildtoolguides/romtoolsguide/group/romtoolsguide.mrp"/>
-            </component>
-            <component filter="build_SFPhase3" name="sbsv2guide" long-name="SBSv2 Guide" >
-                <unit bldFile="sftools/dev/build/buildtoolguides/sbsv2guide/group" mrp="buildtoolguides/sbsv2guide/group/sbsv2guide.mrp"/>
-            </component>
-        </collection>
--->        
-        <collection name="sbsv2" level="middleware" long-name="Symbian Build System v2">
-            <component filter="build_SFPhase3" name="cpp-raptor" long-name="CPP (Raptor)" >
-                <unit bldFile="sftools/dev/build/sbsv2/cpp-raptor/group" mrp="sbsv2/cpp-raptor/group/cpp-raptor.mrp"/>
-            </component>
-            <component filter="build_SFPhase3" name="pvmgmake" long-name="PVM Gmake" >
-                <unit bldFile="sftools/dev/build/sbsv2/pvmgmake/group" mrp="sbsv2/pvmgmake/group/pvmgmake.mrp"/>
-            </component>
-            <component filter="build_SFPhase3" name="raptor" long-name="SBSv2 (Raptor)" >
-                <unit bldFile="sftools/dev/build/sbsv2/raptor/group" mrp="sbsv2/raptor/group/raptor.mrp"/>
-            </component>
-        </collection>
+
         <collection name="imgtools" level="framework" long-name="Image Tools">
             <component filter="build_SFPhase3" name="romtools" long-name="ROM Tools" >
                 <unit bldFile="sftools/dev/build/imgtools/romtools/group" mrp="imgtools/romtools/group/romtools.mrp"/>
