@@ -84,6 +84,9 @@
    </block>
    <block name="dev-buildtools" level="hw" long-name="Dev Build Tools" levels="bld mw fw ui">
         <collection name="bintools" level="framework" long-name="Binary Tools">
+		    <component filter="build_SFPhase3" name="bin2coff" long-name="Bin2coff" >
+                <unit bldFile="sftools/dev/build/bintools/bin2coff/group" mrp="bintools/bin2coff/group/bin2coff.mrp"/>
+            </component>
             <component filter="build_SFPhase3" name="evalid" long-name="Evalid" >
                 <unit bldFile="sftools/dev/build/bintools/evalid" mrp="bintools/evalid/evalid.mrp"/>
             </component>
@@ -96,6 +99,9 @@
             <component filter="build_SFPhase1" name="elftools" long-name="elftools" >
                 <unit bldFile="sftools/dev/build/bintools/elftools/group" mrp="bintools/elftools/group/elftools.mrp"/>
             </component>
+			<component filter="build_SFPhase1" name="petools" long-name="petools" >
+                <unit bldFile="sftools/dev/build/bintools/petools/group" mrp="bintools/petools/group/petools.mrp"/>
+            </component>
         </collection>
         <collection name="srctools" level="middleware" long-name="Source Tools">
             <component filter="build_SFPhase1" name="tranasm" long-name="tranasm" >
@@ -103,6 +109,9 @@
             </component>
             <component filter="build_SFPhase1" name="cmaker" long-name="cmaker" >
                 <unit bldFile="sftools/dev/build/srctools/cmaker/group" mrp="srctools/cmaker/group/cmaker.mrp"/>
+            </component>
+			<component filter="build_SFPhase1" name="readtype" long-name="readtype" >
+                <unit bldFile="sftools/dev/build/srctools/readtype/group" mrp="srctools/readtype/group/readtype.mrp"/>
             </component>
         </collection>
         <collection name="e32tools" level="middleware" long-name="E32 Tools">
@@ -139,6 +148,20 @@
             <unit mrp="build_info/build_metadata/build_metadata.mrp"/>
           </component>
         </collection>
+		<collection name="sbsv1" level="framework" long-name="sbsv1">
+		    <component filter="build_SFPhase3" name="abld" long-name="Abld" >
+                <unit bldFile="sftools/dev/build/sbsv1/abld/group" mrp="sbsv1/abld/group/abld.mrp"/>
+            </component>
+			<component filter="build_SFPhase3" name="buildsystem" long-name="Build System" >
+                <unit bldFile="sftools/dev/build/sbsv1/buildsystem/group" mrp="sbsv1/buildsystem/group/buildsystem.mrp"/>
+            </component>
+			<component filter="build_SFPhase3" name="make-abld" long-name=" make-abld" >
+                <unit bldFile="sftools/dev/build/sbsv1/make-abld/group" mrp="sbsv1/make-abld/group/make-abld.mrp"/>
+            </component>
+			<component filter="build_SFPhase3" name="scpp-abld" long-name="scpp-abld" >
+                <unit bldFile="sftools/dev/build/sbsv1/scpp-abld/group" mrp="sbsv1/scpp-abld/group/scpp-abld.mrp"/>
+            </component>
+		</collection>
       </block>  
      </layer>
  </systemModel>
