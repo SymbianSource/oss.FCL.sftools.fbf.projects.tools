@@ -75,7 +75,7 @@
       <unit bldFile="sftools/dev/build/cpptoolsplat/cpp-2.9-psion-98r2/group" mrp="sftools/dev/buid/cpptoolsplat/cpp-2.9-psion-98r2/group/cpp-2.9-psion-98r2.mrp"/>
      </component>
      <component name="mingw-gcc-3.4.5" long-name="mingw-gcc-3.4.5" purpose="development" class="PC">
-        <unit bldFile="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5" mrp="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5/mingw-gcc-3.4.5.mrp"/>
+        <unit bldFile="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5/group" mrp="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5/mingw-gcc-3.4.5.mrp"/>
      </component>
       <component name="stlport" long-name="stlport" purpose="development" class="PC">
          <unit bldFile="sftools/dev/build/cpptoolsplat/stlport/group" mrp="sftools/dev/build/cpptoolsplat/stlport/group/stlport.mrp" />   
