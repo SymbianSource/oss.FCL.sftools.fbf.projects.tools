@@ -72,13 +72,13 @@
    <block name="hostenv-buildtools" level="hw" long-name="Hostenv Build Tools" levels="bld mw fw ui"> 
     <collection name="Essential tools" long-name="Build System Tools" level="bld">
      <component name="cpp-2.9-psion-98r2" long-name="cpp-2.9-psion-98r2" deprecated="^2" purpose="development" class="PC">
-      <unit bldFile="sftools/dev/hostenv/cpptoolsplat/cpp-2.9-psion-98r2/group" mrp="sftools/dev/hostenv/cpptoolsplat/cpp-2.9-psion-98r2/group/cpp-2.9-psion-98r2.mrp"/>
+      <unit bldFile="sftools/dev/build/cpptoolsplat/cpp-2.9-psion-98r2/group" mrp="sftools/dev/buid/cpptoolsplat/cpp-2.9-psion-98r2/group/cpp-2.9-psion-98r2.mrp"/>
      </component>
      <component name="mingw-gcc-3.4.5" long-name="mingw-gcc-3.4.5" purpose="development" class="PC">
-        <unit bldFile="sftools/dev/hostenv/cpptoolsplat/mingw-gcc-3.4.5" mrp="sftools/dev/hostenv/cpptoolsplat/mingw-gcc-3.4.5/mingw-gcc-3.4.5.mrp"/>
+        <unit bldFile="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5" mrp="sftools/dev/build/cpptoolsplat/mingw-gcc-3.4.5/mingw-gcc-3.4.5.mrp"/>
      </component>
       <component name="stlport" long-name="stlport" purpose="development" class="PC">
-         <unit bldFile="sftools/dev/hostenv/cpptoolsplat/stlport/group" mrp="sftools/dev/hostenv/cpptoolsplat/stlport/group/stlport.mrp" />   
+         <unit bldFile="sftools/dev/build/cpptoolsplat/stlport/group" mrp="sftools/dev/build/cpptoolsplat/stlport/group/stlport.mrp" />   
        </component>
      </collection>
    </block>
